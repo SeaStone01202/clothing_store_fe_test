@@ -21,7 +21,7 @@ const routes = [
   { path: '/edit-profile', component: EditProfileView },
   { path: '/order-history', component: OrderHistoryView },
   { path: '/admin', component: AdminView },
-  { path: '/callback', name: 'Callback', component: CallbackView },
+  { path: '/callback', component: CallbackView },
   // { path: "/auth/zalo/callback", component: ZaloCallback }, // 🔥 Thêm route callback
 ];
 
