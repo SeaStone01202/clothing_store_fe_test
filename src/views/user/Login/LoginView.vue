@@ -83,9 +83,9 @@ const handleLogin = async () => {
  * ✅ Chuyển hướng đến Google OAuth2
  */
 const loginWithGoogle = () => {
-  // window.location.href = "http://localhost:8080/oauth2/authorization/google";
+  window.location.href = "https://clothingstoretest-production.up.railway.app/oauth2/authorization/google', 'Google Login', 'width=500,height=600";
   // https://clothingstoretest-production.up.railway.app/login/oauth2/code/google
-  var loginWindow = window.open('https://clothingstoretest-production.up.railway.app/oauth2/authorization/google', 'Google Login', 'width=500,height=600');
+  // var loginWindow = window.open('https://clothingstoretest-production.up.railway.app/oauth2/authorization/google', 'Google Login', 'width=500,height=600');
   // var loginWindow = window.open('http://localhost:8080/oauth2/authorization/google', 'Google Login', 'width=500,height=600');
 };
 </script>
