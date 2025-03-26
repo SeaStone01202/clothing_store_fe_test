@@ -3,7 +3,7 @@ import { useAuthStore } from "@/stores/AuthStore";
 
 const axiosInstance = axios.create({
   baseURL: "https://clothingstoretest-production.up.railway.app/",
-  timeout: 5000,
+  timeout: 10000,
   headers: {
     "Content-Type": "application/json",
   },
